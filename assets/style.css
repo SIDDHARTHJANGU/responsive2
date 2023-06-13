@@ -72,6 +72,19 @@
 .justy_contant {
   justify-content: center;
 }
+.relative {
+  position: relative;
+}
+.image-position {
+  position: absolute;
+  left: -1px;
+  padding-top: 90px;
+}
+
+.image-property {
+  max-width: 700px;
+  min-height: 507px;
+}
 
 .font_family {
   font-family: "poppins";
@@ -350,7 +363,7 @@
   color: rgba(43, 53, 62, 0.7);
 }
 .padding-top1 {
-  padding-top: 200px;
+  padding-top: 100px;
 }
 .padding-botm {
   padding-bottom: 30px;
@@ -407,7 +420,7 @@
   margin-bottom: 50px;
 }
 .ml_80 {
-  margin-left: -88px;
+  margin-left: px;
 }
 .bg_clr2 {
   background-color: #ffffff;
@@ -441,6 +454,7 @@
 .bgc_btn {
   background-color: white;
 }
+
 .btn_padding {
   padding: 16px 48px;
   border: 1px solid white;
@@ -451,6 +465,9 @@
   color: #1e71ff;
   border-radius: 1px solid #1e71ff;
 }
+.text_clr {
+  color: white;
+}
 
 @media (min-width: 375px) {
   .button2 {
@@ -458,16 +475,16 @@
     border-radius: 60px;
     width: 167px;
     height: 50px;
-    padding: 14px 35px;
+    padding: 13px 35px;
     border: 1px solid #1e71ff;
     font-size: 16px;
   }
-
   .btn_padding {
-    padding: 16px 31px;
+    padding: 11px 24px;
     border: 1px solid white;
     border-radius: 30px;
   }
+
   .padding-top2 {
     padding-top: 45px;
   }
@@ -558,6 +575,11 @@
     padding: 14px 21px;
     border: 1px solid #1e71ff;
   }
+  .btn_padding {
+    padding: 12px 11px;
+    border: 1px solid white;
+    border-radius: 30px;
+  }
   .padding-top2 {
     padding-top: 20px;
   }
@@ -571,11 +593,7 @@
   .fs_16 {
     font-size: 9px;
   }
-  .btn_padding {
-    padding: 14px 34px;
-    border: 1px solid white;
-    border-radius: 30px;
-  }
+
   .font_s16 {
     font-size: 9px;
   }
